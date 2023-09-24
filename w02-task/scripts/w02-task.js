@@ -20,8 +20,8 @@ imageElement.setAttribute('src', profilePicture);
 imageElement.setAttribute('alt', `Profile image of ${fullName}`);
 
 /* Step 5 - Array */
-let favFoods = ['Sushi ', 'Salmon ', 'Beef roast ', 'Muffins ', 
-    'Tomato soup ', 'Carnitas tacos '];
+let favFoods = ['Sushi', 'Salmon', 'Beef roast', 'Muffins', 
+    'Tomato soup', 'Carnitas tacos'];
 foodElement.textContent = favFoods;
 
 const foodItem = 'Pizza';
