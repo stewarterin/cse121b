@@ -9,9 +9,9 @@ const profilePicture = 'images/erin23.JPG';
 
 /* Step 3 - Element Variables */
 const nameElement = document.getElementById('name');
-const foodElement = doucment.getElementById('food');
+const foodElement = document.getElementById('food');
 const yearElement = document.querySelector('#year');
-const imageElement = document.querySelector(img);
+const imageElement = document.querySelector('img');
 
 /* Step 4 - Adding Content */
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
@@ -20,17 +20,17 @@ imageElement.setAttribute('src', profilePicture);
 imageElement.setAttribute('alt', `Profile image of ${fullName}`);
 
 /* Step 5 - Array */
-let foodArray = ['Sushi', 'Salmon', 'Poppyseed muffins', 'Beef roast',
-    'Grilled cheese sandwich', 'Tomato soup', 'Carnitas tacos'];
-foodElement.textContent = foodArray;
+let favFoods = ['Sushi', 'Salmon', 'Beef roast', 'Muffins', 
+    'Tomato soup', 'Carnitas tacos'];
+foodElement.textContent = favFoods;
 
 const foodItem = 'Pizza';
-foodArray.push(foodItem);
-
+favFoods.push(foodItem);
 foodElement.innerHTML += `<br>${favFoods}`;
 
-foodArray.shift();
-
+favFoods.shift();
 foodElement.innerHTML += `<br>${favFoods}`;
 
+favFoods.pop();
+foodElement.innerHTML += `<br>${favFoods}`;
 
