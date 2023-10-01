@@ -70,7 +70,7 @@ document.querySelector('#array').innerHTML = numberArray.join(', ');
 document.querySelector('#odds').innerHTML = numberArray.filter(number => number % 1 === 1);
 
 /* Output Evens Only Array */
-document.querySelector('#odds').innerHTML = numberArray.filter(number => number % 2 === 0);
+document.querySelector('#evens').innerHTML = numberArray.filter(number => number % 2 === 0);
 
 /* Output Sum of Org. Array */
 document.querySelector('#sumOfArray').innerHTML = numbersArray.reduce((sum, number) => sum + number);
