@@ -1,0 +1,49 @@
+* { 
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 1.4em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4em;
+}
+form label {
+    margin-left: .3em;
+    margin-right: 2.5em;
+    font-size: 1.1em;
+}
+#flag-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    padding-bottom: 4em;
+}
+.top-line {
+    margin-top: 100px;
+}
+table {
+    width:25%;
+    margin: auto;
+    border-bottom: 1px solid #181717dd;
+}
+th {
+    height: 40px;
+    border-bottom: 1px solid #181717dd;
+    text-align: left;
+}
+tr:hover {
+    background-color: rgba(205, 221, 221, 0.712);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+}

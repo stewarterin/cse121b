@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>CSE 121b | Final Project</title>
+</head>
+
+<body>
+    <main>
+        <h1>Find My Ancestors</h1>
+        <p>Select country of birth:</p>
+
+
+        <form id="choice">
+            <input id="all" type="radio" name="select" value="All">
+            <label for="all">Show All</label><br>
+            <input id="canada" type="radio" name="select" value="Canada">
+            <label for="canada">Canada</label><br>
+            <input id="denmark" type="radio" name="select" value="Denmark">
+            <label for="denmark">Denmark</label><br>
+            <input id="england" type="radio" name="select" value="England">
+            <label for="england">England</label><br>
+            <input id="germany" type="radio" name="select" value="Germany">
+            <label for="germany">Germany</label><br>
+            <input id="ireland" type="radio" name="select" value="Ireland">
+            <label for="ireland">Ireland</label><br>
+            <input id="netherlands" type="radio" name="select" value="Netherlands">
+            <label for="netherlands">Netherlands</label><br>
+            <input id="us" type="radio" name="select" value="US">
+            <label for="us">United States</label><br>            
+        </form>
+
+
+
+        <img id="flag-img" src="">
+
+        <div id="ancestors"></div>
+
+        <table id="table">
+            <tr>
+                <th>Name</th>
+                <th>Born</th>
+            </tr>
+            <tbody id="tbody"></tbody>
+        </table>
+        
+    </main>
+</body>
+
+<hr class="top-line">
+<footer>
+    Erin Stewart | W07: Final Project | CSE 121b 
+</footer>
+<hr>
+
+<script src="scripts/project.js" type="module"></script>
+
+</html>
